@@ -38,6 +38,8 @@ int main() {
       throw e;
   }
 
+  delete buffer;
+
   cout << endl << endl;
 
   return 0;
