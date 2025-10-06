@@ -1,0 +1,67 @@
+=== Insertion LL case (right rotation) ===
+Insert 30:
+-:30
+
+Insert 20:
+-:30
+30:20
+
+Insert 10:
+-:20
+20:10  20:30
+
+=== Insertion RR case (left rotation) ===
+Insert 10:
+-:10
+
+Insert 20:
+-:10
+10:20
+
+Insert 30:
+-:20
+20:10  20:30
+
+=== Insertion LR case (left-right rotation) ===
+Insert 30:
+-:30
+
+Insert 10:
+-:30
+30:10
+
+Insert 20:
+-:20
+20:10  20:30
+
+=== Insertion RL case (right-left rotation) ===
+Insert 10:
+-:10
+
+Insert 30:
+-:10
+10:30
+
+Insert 20:
+-:20
+20:10  20:30
+
+=== Deletion rebalancing examples ===
+Initial tree:
+-:9
+9:1  9:10
+1:0  1:5  10:11
+0:-1  5:2  5:6
+
+Delete 10:
+-:1
+1:0  1:9
+0:-1  9:5  9:11
+5:2  5:6
+
+Delete 5:
+-:1
+1:0  1:9
+0:-1  9:6  9:11
+6:2
+
