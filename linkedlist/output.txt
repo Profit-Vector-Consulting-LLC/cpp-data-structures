@@ -1,0 +1,30 @@
+123, 444, 27, 41
+
+BACKWARDS: 41, 27, 444, 123
+
+123, 444, 41
+
+BACKWARDS: 41, 444, 123
+
+123, 444
+
+BACKWARDS: 444, 123
+
+123, 444, 3, 17, test
+
+Sorted empty list: 
+
+Sorted empty list BACKWARDS: 
+
+Sorted one item list: 15
+
+Sorted one item list BACKWARDS: 15
+
+Sorted two item list: 015, 15
+
+Sorted two item list BACKWARDS: 15, 015
+
+Sorted main list: 123, 17, 3, 444, test
+
+Sorted main list BACKWARDS: test, 444, 3, 17, 123
+
