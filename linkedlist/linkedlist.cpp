@@ -30,6 +30,20 @@ template <class T> class LinkedList {
 	       first = last = (Node<T>*)NULL;
 	    }
 
+	    ~LinkedList<T>() {
+	       //Individually free each node.  
+	       Node<T> *current = this->first;
+	       while(current != (Node<T>*)NULL) {
+		    Node<T> *next = current->next;
+		    try {
+		       delete current;
+		    } catch(exception e) {
+		       cerr << e.what() << endl;
+		    }
+		    current=next;
+	       }
+	    }
+
             Node<T>* getFirst() {
 	       return first;
             }	  
