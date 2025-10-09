@@ -1,0 +1,70 @@
+Enqueued abc:
+length: 3
+    'a' 'b' 'c'
+==========
+Same thing backwards:
+length: 3
+    'c' 'b' 'a'
+==========
+
+a
+b
+isEmpty == 0
+isFull == 0
+c
+isEmpty == 1
+isFull == 0
+
+Pushed abc:
+length: 3
+    'a' 'b' 'c'
+==========
+Same thing backwards:
+length: 3
+    'c' 'b' 'a'
+==========
+
+c
+b
+isEmpty == 0
+isFull == 0
+a
+isEmpty == 1
+isFull == 0
+
+Mixed apprach - abc:
+length: 3
+    'a' 'b' 'c'
+==========
+Same thing backwards:
+length: 3
+    'c' 'b' 'a'
+==========
+
+c
+b
+isEmpty == 0
+isFull == 0
+a
+isEmpty == 1
+isFull == 0
+
+Pushed abc:
+length: 3
+    'a' 'b' 'c'
+==========
+Same thing backwards:
+length: 3
+    'c' 'b' 'a'
+==========
+
+length() == 3
+isEmpty == 0
+isFull == 0
+c
+b
+a
+length() == 0
+isEmpty == 1
+isFull == 0
+
