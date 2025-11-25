@@ -1,3 +1,0 @@
-/Users/davidvalko/Documents/profitvector/development/repos/cpp-data-structures/build/CMakeFiles/cpp-data-structures.dir
-/Users/davidvalko/Documents/profitvector/development/repos/cpp-data-structures/build/CMakeFiles/edit_cache.dir
-/Users/davidvalko/Documents/profitvector/development/repos/cpp-data-structures/build/CMakeFiles/rebuild_cache.dir
