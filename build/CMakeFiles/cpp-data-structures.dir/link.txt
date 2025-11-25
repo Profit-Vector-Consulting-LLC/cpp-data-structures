@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/cpp-data-structures.dir/src/stack/parens.cpp.o" -o cpp-data-structures   -L/usr/local/opt/llvm/lib/c++  -L/usr/local/opt/llvm/lib

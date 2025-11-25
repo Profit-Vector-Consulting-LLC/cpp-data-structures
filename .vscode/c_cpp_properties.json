@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/opt/llvm/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerArgs": [
+                "-L/usr/local/opt/llvm/lib/c++ ",
+                "-L/usr/local/opt/llvm/lib ",
+                "-lunwind"
+            ]
+        }
+    ],
+    "version": 4
+}
